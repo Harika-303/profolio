@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Your Stationary Store</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you!</p>
+    </header>
+
+    <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="address">
+        <h2>Our Address</h2>
+        <p>Your Stationary Store<br>123 Stationary Lane<br>Your City, State 12345</p>
+    </section>
+
+    <section id="contact-details">
+        <h2>Contact Details</h2>
+        <p>Email: info@yourstationarystore.com<br>Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>For any inquiries, please use the contact form or email us at <a href="mailto:info@yourstationarystore.com">info@yourstationarystore.com</a>.</p>
+    </footer>
+</body>
+</html>
